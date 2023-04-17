@@ -1,3 +1,5 @@
+import {Test} from "./Banana"
+
 export type Guy = {
-	banana: import("./Banana").Test
+	banana: Test;
 }
